@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" verbose="0" name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.xpan.gnd.full.testsuites.development.TestClass2">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="prepareReport"/>
+          <include name="startTest"/>
+          <include name="setup"/>
+          <include name="login2Test2"/>
+        </methods>
+      </class> <!-- com.xpan.gnd.full.testsuites.development.TestClass2 -->
+      <class name="com.xpan.gnd.full.testsuites.development.TestClass1">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="login1Test1"/>
+          <include name="login2Test1"/>
+          <include name="prepareReport"/>
+          <include name="startTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.xpan.gnd.full.testsuites.development.TestClass1 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="2" verbose="0" name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.xpan.gnd.full.testsuites.development.TestClass1">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="login1Test1"/>
+          <include name="login2Test1"/>
+          <include name="prepareReport"/>
+          <include name="startTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.xpan.gnd.full.testsuites.development.TestClass1 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

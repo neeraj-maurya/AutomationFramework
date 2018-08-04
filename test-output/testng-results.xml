@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="18" total="24" passed="5" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-05-25T13:26:20Z" name="Suite" finished-at="2018-05-25T13:27:01Z" duration-ms="41176">
+    <groups>
+    </groups>
+    <test started-at="2018-05-25T13:26:20Z" name="Chrome Test" finished-at="2018-05-25T13:26:28Z" duration-ms="7600">
+      <class name="com.gi.de.full.testsuites.development.Login2">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gi.de.full.testsuites.development.Login2@3972a855]" started-at="2018-05-25T13:26:20Z" name="setup" finished-at="2018-05-25T13:26:27Z" duration-ms="6624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.gi.de.full.testsuites.development.Login2@3972a855]" started-at="2018-05-25T13:26:27Z" name="startTest" finished-at="2018-05-25T13:26:27Z" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gi.de.full.testsuites.development.Login2.LoginScreen_ApplicationUrl1()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1530c739]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="LoginScreen_ApplicationUrl1()[pri:0, instance:com.gi.de.full.testsuites.development.Login2@3972a855]" started-at="2018-05-25T13:26:27Z" name="LoginScreen_ApplicationUrl1" finished-at="2018-05-25T13:26:27Z" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginScreen_ApplicationUrl1 -->
+        <test-method is-config="true" signature="prepareReport(org.testng.ITestResult)[pri:0, instance:com.gi.de.full.testsuites.development.Login2@3972a855]" started-at="2018-05-25T13:26:27Z" name="prepareReport" finished-at="2018-05-25T13:26:27Z" duration-ms="44" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginScreen_ApplicationUrl1 status=SUCCESS method=Login2.LoginScreen_ApplicationUrl1()[pri:0, instance:com.gi.de.full.testsuites.development.Login2@3972a855] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareReport -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.gi.de.full.testsuites.development.Login2@3972a855]" started-at="2018-05-25T13:26:27Z" name="quitDriver" finished-at="2018-05-25T13:26:28Z" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.gi.de.full.testsuites.development.Login2 -->
+      <class name="com.gi.de.full.testsuites.development.Login">
+        <test-method is-config="true" signature="test(org.testng.ITestContext)[pri:0, instance:com.gi.de.full.testsuites.development.Login@4da4253]" started-at="2018-05-25T13:26:20Z" name="test" finished-at="2018-05-25T13:26:20Z" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1530c739]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gi.de.full.testsuites.development.Login@4da4253]" started-at="2018-05-25T13:26:20Z" name="setup" finished-at="2018-05-25T13:26:26Z" duration-ms="6145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.gi.de.full.testsuites.development.Login@4da4253]" started-at="2018-05-25T13:26:26Z" name="startTest" finished-at="2018-05-25T13:26:26Z" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gi.de.full.testsuites.development.Login.LoginScreen_ApplicationUrl()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1530c739]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="LoginScreen_ApplicationUrl()[pri:0, instance:com.gi.de.full.testsuites.development.Login@4da4253]" started-at="2018-05-25T13:26:26Z" name="LoginScreen_ApplicationUrl" finished-at="2018-05-25T13:26:27Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginScreen_ApplicationUrl -->
+        <test-method is-config="true" signature="prepareReport(org.testng.ITestResult)[pri:0, instance:com.gi.de.full.testsuites.development.Login@4da4253]" started-at="2018-05-25T13:26:27Z" name="prepareReport" finished-at="2018-05-25T13:26:27Z" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginScreen_ApplicationUrl status=SUCCESS method=Login.LoginScreen_ApplicationUrl()[pri:0, instance:com.gi.de.full.testsuites.development.Login@4da4253] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareReport -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.gi.de.full.testsuites.development.Login@4da4253]" started-at="2018-05-25T13:26:27Z" name="quitDriver" finished-at="2018-05-25T13:26:28Z" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.gi.de.full.testsuites.development.Login@4da4253]" started-at="2018-05-25T13:26:28Z" name="endTest" finished-at="2018-05-25T13:26:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.gi.de.full.testsuites.development.Login -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2018-05-25T13:26:28Z" name="Firefox Test" finished-at="2018-05-25T13:26:37Z" duration-ms="9542">
+      <class name="com.gi.de.full.testsuites.development.Login2">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gi.de.full.testsuites.development.Login2@2f8dad04]" started-at="2018-05-25T13:26:28Z" name="setup" finished-at="2018-05-25T13:26:35Z" duration-ms="7625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginScreen_ApplicationUrl1()[pri:0, instance:com.gi.de.full.testsuites.development.Login2@2f8dad04]" started-at="2018-05-25T13:26:35Z" name="LoginScreen_ApplicationUrl1" finished-at="2018-05-25T13:26:36Z" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginScreen_ApplicationUrl1 -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.gi.de.full.testsuites.development.Login2@2f8dad04]" started-at="2018-05-25T13:26:35Z" name="startTest" finished-at="2018-05-25T13:26:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gi.de.full.testsuites.development.Login2.LoginScreen_ApplicationUrl1()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b1669c0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="prepareReport(org.testng.ITestResult)[pri:0, instance:com.gi.de.full.testsuites.development.Login2@2f8dad04]" started-at="2018-05-25T13:26:36Z" name="prepareReport" finished-at="2018-05-25T13:26:36Z" duration-ms="53" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginScreen_ApplicationUrl1 status=SUCCESS method=Login2.LoginScreen_ApplicationUrl1()[pri:0, instance:com.gi.de.full.testsuites.development.Login2@2f8dad04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareReport -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.gi.de.full.testsuites.development.Login2@2f8dad04]" started-at="2018-05-25T13:26:36Z" name="quitDriver" finished-at="2018-05-25T13:26:37Z" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.gi.de.full.testsuites.development.Login2 -->
+      <class name="com.gi.de.full.testsuites.development.Login">
+        <test-method is-config="true" signature="test(org.testng.ITestContext)[pri:0, instance:com.gi.de.full.testsuites.development.Login@2bfc268b]" started-at="2018-05-25T13:26:28Z" name="test" finished-at="2018-05-25T13:26:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b1669c0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gi.de.full.testsuites.development.Login@2bfc268b]" started-at="2018-05-25T13:26:28Z" name="setup" finished-at="2018-05-25T13:26:36Z" duration-ms="7788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginScreen_ApplicationUrl()[pri:0, instance:com.gi.de.full.testsuites.development.Login@2bfc268b]" started-at="2018-05-25T13:26:36Z" name="LoginScreen_ApplicationUrl" finished-at="2018-05-25T13:26:36Z" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginScreen_ApplicationUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.gi.de.full.testsuites.development.Login@2bfc268b]" started-at="2018-05-25T13:26:36Z" name="startTest" finished-at="2018-05-25T13:26:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gi.de.full.testsuites.development.Login.LoginScreen_ApplicationUrl()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b1669c0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="prepareReport(org.testng.ITestResult)[pri:0, instance:com.gi.de.full.testsuites.development.Login@2bfc268b]" started-at="2018-05-25T13:26:36Z" name="prepareReport" finished-at="2018-05-25T13:26:36Z" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginScreen_ApplicationUrl status=SUCCESS method=Login.LoginScreen_ApplicationUrl()[pri:0, instance:com.gi.de.full.testsuites.development.Login@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareReport -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.gi.de.full.testsuites.development.Login@2bfc268b]" started-at="2018-05-25T13:26:36Z" name="quitDriver" finished-at="2018-05-25T13:26:37Z" duration-ms="1453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.gi.de.full.testsuites.development.Login@2bfc268b]" started-at="2018-05-25T13:26:37Z" name="endTest" finished-at="2018-05-25T13:26:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.gi.de.full.testsuites.development.Login -->
+    </test> <!-- Firefox Test -->
+    <test started-at="2018-05-25T13:26:37Z" name="Internet Explorer Test" finished-at="2018-05-25T13:27:01Z" duration-ms="23980">
+      <class name="com.gi.de.full.testsuites.development.Login2">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gi.de.full.testsuites.development.Login2@732c2a62]" started-at="2018-05-25T13:26:37Z" name="setup" finished-at="2018-05-25T13:26:41Z" duration-ms="3266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.gi.de.full.testsuites.development.Login2@732c2a62]" started-at="2018-05-25T13:26:41Z" name="startTest" finished-at="2018-05-25T13:26:41Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gi.de.full.testsuites.development.Login2.LoginScreen_ApplicationUrl1()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e4deb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="LoginScreen_ApplicationUrl1()[pri:0, instance:com.gi.de.full.testsuites.development.Login2@732c2a62]" started-at="2018-05-25T13:26:41Z" name="LoginScreen_ApplicationUrl1" finished-at="2018-05-25T13:26:41Z" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginScreen_ApplicationUrl1 -->
+        <test-method is-config="true" signature="prepareReport(org.testng.ITestResult)[pri:0, instance:com.gi.de.full.testsuites.development.Login2@732c2a62]" started-at="2018-05-25T13:26:41Z" name="prepareReport" finished-at="2018-05-25T13:26:41Z" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginScreen_ApplicationUrl1 status=SUCCESS method=Login2.LoginScreen_ApplicationUrl1()[pri:0, instance:com.gi.de.full.testsuites.development.Login2@732c2a62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareReport -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.gi.de.full.testsuites.development.Login2@732c2a62]" started-at="2018-05-25T13:26:41Z" name="quitDriver" finished-at="2018-05-25T13:26:42Z" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.gi.de.full.testsuites.development.Login2 -->
+      <class name="com.gi.de.full.testsuites.development.Login">
+        <test-method is-config="true" signature="test(org.testng.ITestContext)[pri:0, instance:com.gi.de.full.testsuites.development.Login@1ba9117e]" started-at="2018-05-25T13:26:37Z" name="test" finished-at="2018-05-25T13:26:37Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e4deb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gi.de.full.testsuites.development.Login@1ba9117e]" started-at="2018-05-25T13:26:37Z" name="setup" finished-at="2018-05-25T13:27:01Z" duration-ms="23948" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('There are no more files.') for URL 'http://localhost:27507/'
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.26.21.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10'
+Driver info: driver.version: IEWebDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('There are no more files.') for URL 'http://localhost:27507/'
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.26.21.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10'
+Driver info: driver.version: IEWebDriver
+remote stacktrace: 
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:223)
+at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:215)
+at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:152)
+at com.gi.de.browsers.IEWebDriver.getDriver(IEWebDriver.java:13)
+at com.gi.de.browsers.BrowserTypes.getDriver(BrowserTypes.java:14)
+at com.gi.de.base.BaseTestCase.setup(BaseTestCase.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:844)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prepareReport(org.testng.ITestResult)[pri:0, instance:com.gi.de.full.testsuites.development.Login@1ba9117e]" started-at="2018-05-25T13:27:01Z" name="prepareReport" finished-at="2018-05-25T13:27:01Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareReport -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.gi.de.full.testsuites.development.Login@1ba9117e]" started-at="2018-05-25T13:27:01Z" name="quitDriver" finished-at="2018-05-25T13:27:01Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.gi.de.full.testsuites.development.Login@1ba9117e]" started-at="2018-05-25T13:27:01Z" name="startTest" finished-at="2018-05-25T13:27:01Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="LoginScreen_ApplicationUrl()[pri:0, instance:com.gi.de.full.testsuites.development.Login@1ba9117e]" started-at="2018-05-25T13:27:01Z" name="LoginScreen_ApplicationUrl" finished-at="2018-05-25T13:27:01Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('There are no more files.') for URL 'http://localhost:27507/'
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.26.21.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10'
+Driver info: driver.version: IEWebDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070012 ('There are no more files.') for URL 'http://localhost:27507/'
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.26.21.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10'
+Driver info: driver.version: IEWebDriver
+remote stacktrace: 
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:223)
+at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:215)
+at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:152)
+at com.gi.de.browsers.IEWebDriver.getDriver(IEWebDriver.java:13)
+at com.gi.de.browsers.BrowserTypes.getDriver(BrowserTypes.java:14)
+at com.gi.de.base.BaseTestCase.setup(BaseTestCase.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:844)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginScreen_ApplicationUrl -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.gi.de.full.testsuites.development.Login@1ba9117e]" started-at="2018-05-25T13:27:01Z" name="endTest" finished-at="2018-05-25T13:27:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.gi.de.full.testsuites.development.Login -->
+    </test> <!-- Internet Explorer Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.xpan.gnd.full.testsuites.development.ProductionOrder">
+        <methods>
+          <include name="productionOrderList_Screen_SearchAnd_Filter"/>
+          <include name="quitDriver"/>
+          <include name="productionOrderRedirectScreen_SO_Removal"/>
+          <include name="productionOrderListScreen_Filtericon"/>
+          <include name="productionOrderList_Screen_FilterDate_fields_ValidationMin"/>
+          <include name="productionOrderList_Screen_FilterClear"/>
+          <include name="productionOrderList_Screen_FilterDate_fields_Both"/>
+          <include name="setup"/>
+          <include name="productionOrderList_Screen_Contents_display"/>
+          <include name="productionOrderRedirectScreen_Redirectback"/>
+          <include name="productionOrderList_Screen_FilterDate_fields_ValidationMax"/>
+          <include name="productionOrderList_Screen_Action_buttons_Enabled"/>
+          <include name="productionOrderList_Screen_Production_OrderSTATUS"/>
+          <include name="production_OrderList_Screen_TagChip"/>
+          <include name="productionOrderRedirectScreen_Different_Client_Manager"/>
+          <include name="productionOrderList_Screen_Pagination"/>
+          <include name="productionOrderList_Screen_Filterapply"/>
+          <include name="productionOrderRedirectScreen_SelctionPOdetail"/>
+          <include name="productionOrderRedirectScreen_Redirect_contents"/>
+          <include name="productionOrderList_Screen_FilterDate_fields_From"/>
+          <include name="productionOrderList_Screen_Sales_Order_ID_link"/>
+          <include name="productionOrderList_Screen_SearchBox"/>
+          <include name="prepareReport"/>
+          <include name="productionOrderList_Screen_Filter_Status_Field"/>
+          <include name="productionOrderRedirectScreen_External_Sateliite"/>
+          <include name="ProductionOrderRedirectScreen_SOselection_forRedirect"/>
+          <include name="productionOrderList_Screen_FilterDate_fields_To"/>
+          <include name="productionOrderList_Screen_Filterpanel"/>
+          <include name="productionOrderList_Screen_Action_buttons_Disabled"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.xpan.gnd.full.testsuites.development.ProductionOrder -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

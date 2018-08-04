@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Internet Explorer Test(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.gi.de.full.testsuites.development.Login">
+        <methods>
+          <include name="LoginScreen_ApplicationUrl"/>
+          <include name="startTest"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="test"/>
+          <include name="quitDriver"/>
+          <include name="prepareReport"/>
+        </methods>
+      </class> <!-- com.gi.de.full.testsuites.development.Login -->
+    </classes>
+  </test> <!-- Internet Explorer Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

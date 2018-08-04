@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="108.5" tests="40" errors="0" skipped="30" failures="6">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\neerajm\eclipse-workspace\GnDAutoDemo\target\test-classes;C:\Users\neerajm\eclipse-workspace\GnDAutoDemo\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\log4j-over-slf4j\1.6.6\log4j-over-slf4j-1.6.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Jenkins\jre\bin"/>
+    <property name="sun.java.command" value="C:\Windows\TEMP\surefire3509998782150896167\surefirebooter8955943324932740002.jar C:\Windows\Temp\surefire3509998782150896167 2018-05-11T17-47-46_852-jvmRun1 surefire6117349311474929565tmp surefire_04090679895298448244tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\neerajm\eclipse-workspace\GnDAutoDemo\target\test-classes;C:\Users\neerajm\eclipse-workspace\GnDAutoDemo\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\log4j-over-slf4j\1.6.6\log4j-over-slf4j-1.6.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files (x86)\Jenkins\jre"/>
+    <property name="basedir" value="C:\Users\neerajm\eclipse-workspace\GnDAutoDemo"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Windows\TEMP\surefire3509998782150896167\surefirebooter8955943324932740002.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Jenkins\jre\lib\resources.jar;C:\Program Files (x86)\Jenkins\jre\lib\rt.jar;C:\Program Files (x86)\Jenkins\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Jenkins\jre\lib\jsse.jar;C:\Program Files (x86)\Jenkins\jre\lib\jce.jar;C:\Program Files (x86)\Jenkins\jre\lib\charsets.jar;C:\Program Files (x86)\Jenkins\jre\lib\jfr.jar;C:\Program Files (x86)\Jenkins\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="user.name" value="XIPL0448$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Jenkins\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="C:\Windows\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="user.dir" value="C:\Users\neerajm\eclipse-workspace\GnDAutoDemo"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Jenkins\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\apache-maven-3.5.3/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\apache-maven-3.5.2\bin;C:\Program Files (x86)\Skype\Phone\;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Jenkins\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="setup" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="13.932">
+    <failure message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;XIPL0448&apos;, ip: &apos;172.30.30.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: FirefoxWebDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.30.30.13', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxWebDriver
+remote stacktrace: 
+</failure>
+    <system-err><![CDATA[May 11, 2018 5:47:47 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+May 11, 2018 5:47:47 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+1526041067759	geckodriver	INFO	geckodriver 0.20.1 (685f18325cea0a282c736e65972f95aa6db7ca48 2018-04-03)
+1526041067767	geckodriver	INFO	Listening on 127.0.0.1:39330
+1526041067779	geckodriver	INFO	geckodriver 0.20.1 (685f18325cea0a282c736e65972f95aa6db7ca48 2018-04-03)
+1526041067787	geckodriver	INFO	Listening on 127.0.0.1:44299
+1526041068475	mozrunner::runner	INFO	Running command: "C:\\Progra1m Fil526041068475e	mso\zrunne\Mro::runnerz	ilIla FirefoxN\F\Of	irefoRx.exe" "-marioneutte" "-profile" n"nC:i\n\Windowsg\\TEMP\\rust_mozprofil ec.oDmmand: "C:\\PlrMoVgrPayrXaQUd"m
+ Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Windows\\TEMP\\rust_mozprofile.2wGQPRPrhPKb"
+Unable to read VR Path Registry from C:\Windows\system32\config\systemprofile\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Windows\system32\config\systemprofile\AppData\Local\openvr\openvrpaths.vrpath
+1526041069220	Marionette	INFO	Enabled via --marionette
+1526041069238	Marionette	INFO	Enabled via --marionette
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot s
+end/recv
+
+#
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,na##me=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! 
+[Pa##re#!nt!!][ [MePassreagnteC][hannMeelss] agEreCrohar: (nnmselgt] ypErre=or0x: 2C(m00sg1Fty,name=PContent::Mpesg=0_Px2reC0fe01reF,ncnaeUme=PCpdonattee)nt C::haMsnng_el ePrrrefeorre: nccaeUnnopdt atsee)nd C/rhaecnnvel
+ e
+
+rr##or#!: !!ca [nnPaotre snten][d/MeresscvageCha
+nn
+el]
+ E##rr#!!or:! [Pa (remsgtntype=0][x2MeC0ss01agF,neChannamel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+e=PCo
+nten
+##t::Ms#!!g_! Pr[PareferenceUenpdt]at[Me)ess ChaagnneleC eharrnnor: elca] nnoErt roser:nd (/rmsecgtvyp
+
+e=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Paren
+t]##[Me#!!ss! ag[PeCarhaennt][Mesnesagl]eC Errohar: (mnnsgelty] peEr=0x2ror:C0041 (,name=PContent::Msg_LoadProcessmsgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate)Script) Channel error: ca Channel error: cannot send/recv
+
+nnot send/recv
+
+
+###!!! [Parent][Mess
+#ageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Cha##!!! [Parent][MessageChannel error: cannot send/nnel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recvrecv
+
+
+
+###!!! [Par
+e
+###!!! [Parent][MessageChnt][Messagannel] Error: (msgeChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannetypl] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: canne=0x2C001F,ot send/recv
+
+name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C00
+###!!! [1FPa,namree=ntPC][onMetessntag::MseChag_nnPrelef] erErenceUropdr:at (msge)ty Cpeha=0nnx2elC01 erro04r: ,ncaamnnoe=Pt Cosentndent:/r:Mecsg_AsvyncMe
+ss
+age
+) ##Ch#!an!!ne [l Paerrenrot]r: [Mcaesnnsaotge sChanneendl]/r Eecvrr
+or
+: (
+###ms!!! [Pagtyrepent=0x][2CMe001ssaF,ngeameCh=PContannelent] ::ErMsg_roPrer:feren (msgcetypUpdae=te0x2) C0Ch10an4,nenaml e=erPCroonr: cteanntnot ::send/recv
+
+
+###!!! [PaMsreg_ntAs][ynMesscMageseCsahanngeel] ) ErChroanr: (nemsl gteryproe=r:0x can2Cno001Ft ,namsee=ndPCon/rtentec::vMs
+g_
+PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+
+###!##!! [P#!!! ar[Paenret][Mentssage][ChMeanssnel] agEreCrohar:nn (elms] gtEryproe=0xr:2C (00ms1Fgt,nypame=e=0xPC2Con001F,tent::Msg_name=PrefePCreonnceUpdatete)nt C::hannel eMsgrror:_P carennferenot sceUenpdd/atrecve)
+
+ C
+#ha##!!nn! el e[Prror:arent] c[Manesnosat geseChndann/rel] Eecrrvor
+
+: (m
+sgt##ype=#!0x!!2C001 [F,namPae=rPContenent]t:[M:Messasgge_PChrefeanrenencl]eU Epdrrate) Choran: (msgnetyl eperro=0r: cax2nnoC0t se01nd/F,renacvme
+=P
+Con
+tent:##:Msg#!_P!! re[Pfearreentnce][UpMedassategeC) haChannnnelel] E errrror:or (: mscagtnnypote=0x se2C001ndF,na/reme=PcvCont
+en
+t:
+:Msg_##Pr#!!ef! [PaerreencnteUpdate)][M Chaesnnel error:sa cgeanChnoant snelen] Ed/rrrecorv: 
+(m
+sgt
+#yp##e=0!!x2C! [Pa00re1Fnt,name][=PCMeontssaenget::MsChg_Panrefneler] encEreUprodatr: e) (msgtChypane=nel 0x2erC00ror1F,: cnamane=PnoCont tent::Mssend/g_PrerefecvrenceUpdate) Channel
+ er
+ror:
+ can##not#! send/!! [Precarent]v
+
+[MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,
+nam##e=P#!Conten!! t::[Parent][MessageMsChanng_Prel] efError: (msgtype=0x2erC0en01ceF,Updnaatmee) =PChCoanntneenl t:err:Mor: sgca_Pnnreotfe send/rerecvnc
+eU
+pd
+at##e)#! C!!han [Pnearent][l MeerssageChroanr: cannelno] Errt sor: end/recv
+
+(
+###!!! [Parent][msMessageChagtnneypl]e=0x2C001 ErF,ronar: (mems=PgtCoypnte=en0x2t:C0:M01sg_F,namPre=PCefonertenent:ce:Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+Update) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_Pre
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PCofntent::Msg_PreferenceUpdate) CherenceUpdate) Channel error: cannot send/recv
+
+
+annel ###!!! [Parent][MessageChannel] Error: erro(mr:sg catynnopet sen=0xd/2Cre001F,ncv
+
+ame=PContent::Msg_PreferenceUpdat
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][Messagee) Channel error: cannot send/recvChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_Pr
+
+efere
+###!!! [ncParent]eU[MessagepdChanatnel]e) Error: Ch (msgtype=0anx2C001neF,name=PConl error: cannteot ntsen::d/rMsecvg_P
+refer
+enceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process cras
+###hed!!! [Parent and MOZ_CR][MessageChannel] Error: (msgtype=0x150001,name=PBrowser:ASHR:Msg_AsEPOyncRTEMeR_SHssUTDOWN is set, shutting down
+age) Channel error: cannot send/re
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel errorcv
+
+:
+###!!! [Parent][Mess cannot ageChannel] Error: (msgtype=0x2C010sen4,d/recvname=PC
+
+oWARNING: A 
+blonteck###!er encount:ntered an error while we were waiting.
+        !! [Parent][Messag  Blocker:  SessionStore: flushing all windows
+          Phase: quit-appl:Msg_AsyncMessage) Channel erication-grantedeChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+          State: {"total":-1,"currror: ent":-1}
+cannWARNING: [Exception... "Component returned failot send/rure code: ecv
+
+0
+###!!! [Parent][Mx800essageChannel] Err0fffor: (msgf (NS_type=0x150001,namERROR_UNEe=PBroXPECwser::MsgTED)_AsyncMessage) Channel error:  [nsIMesscannot send/ageSender.srecv
+en
+d
+###Asy!!! [ncMesParent][MessagesageChannel] Erro]" r:  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "(msgtJS frameyp :: resoure=0xce:///mo2C001F,name=PCdulontent::Msg_PreferenceUpdatees/sessionstore/TabSt) ateFlusher.jsm :: flush :: liChannel error: cannot send/recv
+
+ne 88"  data: no]
+WARNING: flush@resource:///modules/sessionstore/TabStateFlusher.jsm:88:5
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:111:23
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:34:12
+flushAllWindowsAsync/<@resource:///modules/sessionstore/SessionStore.jsm:1668:31
+ssi_forEachBrowserWindow@resource:///modules/sessionstore/SessionStore.jsm:4215:9
+flushAllWindowsAsync@resource:///modules/sessionstore/SessionStore.jsm:1667:5
+ssi_onQuitApplicationGranted/<@resource:///modules/sessionstore/SessionStore.jsm:1616:25
+trigger@resource://gre/modules/AsyncShutdown.jsm:704:23
+_wait@resource://gre/modules/AsyncShutdown.jsm:851:7
+wait@resource://gre/modules/AsyncShutdown.jsm:835:28
+observe@resource://gre/modules/AsyncShutdown.jsm:518:17
+observe@resource:///modules/ContentCrashHandlers.jsm:162:11
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContenWARNING: A blocker encountered ant::Msg error while we wer_Asyne wacMitinessag.ge)
+          Blocker Channel e:  SessirroronStore: flushing all wi: cannot send/rndowecv
+
+s
+###!!! [
+   Parent]       Phase: quit[Me-apssaplication-granted
+geChann    el] Er   ror:   S (msgtyptate=0x150001,name=e: {PBrowser::"toMsg_Asyntal":-1,"currcMessage) Channel error: canent"not send/recv
+
+:-1}
+WARNING: [Exception... "Component returned failure code
+##: #!!0x8! [000ffff Parent(NS_E][RROR_UNEMessagXPEeChannel]CTED)  Error: ([nsIMmsgtypeessageSender.send=0x2C001FAsyncMessage]"  ,nansresult: "0x80me=PContent::00ffff (Msg_PrefeNS_ERrenceUpdate) ChROR_UNEXPanneECTED)" l error: can locanot send/recv
+
+tion: "JS frame :: resource:///modules/sessionstore/TabStateFlusher.jsm :: flush :: line 88"  data: no]
+WARNING: flush@resource:///modules/sessionstore/TabStateFlusher.jsm:88:5
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:111:23
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:34:12
+flushAllWindowsAsync/<@resource:///modules/sessionstore/SessionStore.jsm:1668:31
+ssi_forEachBrowserWindow@resource:///modules/sessionstore/SessionStore.jsm:4215:9
+flushAllWindowsAsync@resource:///modules/sessionstore/SessionStore.jsm:1667:5
+ssi_onQuitApplicationGranted/<@resource:///modules/sessionstore/SessionStore.jsm:1616:25
+trigger@resource://gre/modules/AsyncShutdown.jsm:704:23
+_wait@resource://gre/modules/AsyncShutdown.jsm:851:7
+wait@resource://gre/modules/AsyncShutdown.jsm:835:28
+observe@resource://gre/modules/AsyncShutdown.jsm:518:17
+observe@resource:///modules/ContentCrashHandlers.jsm:162:11
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/ContentCrashHandlers.jsm, line 333: TypeError: browser.ownerGlobal is null
+JavaScript error: resource:///modules/ContentCrashHandlers.jsm, line 333: TypeError: browser.ownerGlobal is null
+JavaScript error: resource://shield-recipe-client/lib/ShieldRecipeClient.jsm, line 70: TypeError: log is undefined
+JavaScript error: resource://shield-recipe-client/lib/ShieldRecipeClient.jsm, line 70: TypeError: log is undefined
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008D,name=PBrowser:
+###!!! [Parent][Messag:MsgeChannel] Error: (m_UpdateNsgtypativeWindowHandle) Channel erre=0x15008D,name=PBrowser::Msg_UpdateNatior: cannoveWindowHandle) Chat send/recv
+
+n
+###!!! [Parent][MessageChannel] Error: (msnegtype=0x150l error: cannot s080,name=PBrowser::Msg_Dendestroy) Channel error: cannot send/recv/recv
+
+
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="13.933">
+    <failure message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;XIPL0448&apos;, ip: &apos;172.30.30.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: FirefoxWebDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.30.30.13', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxWebDriver
+remote stacktrace: 
+</failure>
+  </testcase>
+  <testcase name="setup" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startTest" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startTest" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startTest" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startTest" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login1Test1" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;XIPL0448&apos;, ip: &apos;172.30.30.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: FirefoxWebDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="login1Test1" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;XIPL0448&apos;, ip: &apos;172.30.30.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: FirefoxWebDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="prepareReport" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="prepareReport" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="prepareReport" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="prepareReport" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="quitDriver" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="quitDriver" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="quitDriver" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="quitDriver" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login2Test1" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;XIPL0448&apos;, ip: &apos;172.30.30.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: FirefoxWebDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="login2Test1" classname="com.xpan.gnd.full.testsuites.development.TestClass1" time="0">
+    <skipped message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;XIPL0448&apos;, ip: &apos;172.30.30.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: FirefoxWebDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="login1Test2" classname="com.xpan.gnd.full.testsuites.development.TestClass2" time="5.042"/>
+  <testcase name="login1Test2" classname="com.xpan.gnd.full.testsuites.development.TestClass2" time="9.093"/>
+  <testcase name="setup" classname="com.xpan.gnd.full.testsuites.development.TestClass2" time="19.091">
+    <failure message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;XIPL0448&apos;, ip: &apos;172.30.30.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: FirefoxWebDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.30.30.13', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxWebDriver
+remote stacktrace: 
+</failure>
+    <system-err><![CDATA[
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 22020
+Only local connections are allowed.
+May 11, 2018 5:48:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+]]></system-err>
+  </testcase>
+  <testcase name="startTest" classname="com.xpan.gnd.full.testsuites.development.TestClass2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login2Test2" classname="com.xpan.gnd.full.testsuites.development.TestClass2" time="0">
+    <skipped message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;XIPL0448&apos;, ip: &apos;172.30.30.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: FirefoxWebDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="login2Test2" classname="com.xpan.gnd.full.testsuites.development.TestClass2" time="7.271"/>
+  <testcase name="prepareReport" classname="com.xpan.gnd.full.testsuites.development.TestClass2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="quitDriver" classname="com.xpan.gnd.full.testsuites.development.TestClass2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.xpan.gnd.full.testsuites.development.ParallelClass1" time="25.29">
+    <failure message="connection reset&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;XIPL0448&apos;, ip: &apos;172.30.30.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: FirefoxWebDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+connection reset
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.30.30.13', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxWebDriver
+remote stacktrace: 
+</failure>
+    <system-err><![CDATA[May 11, 2018 5:48:55 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+1526041135942	geckodriver	INFO	geckodriver 0.20.1 (685f18325cea0a282c736e65972f95aa6db7ca48 2018-04-03)
+1526041135958	geckodriver	INFO	Listening on 127.0.0.1:37038
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 12451
+Only local connections are allowed.
+1526041136474	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Windows\\TEMP\\rust_mozprofile.BMgcqIhULJIH"
+May 11, 2018 5:48:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Unable to read VR Path Registry from C:\Windows\system32\config\systemprofile\AppData\Local\openvr\openvrpaths.vrpath
+1526041140002	Marionette	INFO	Enabled via --marionette
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1526041143080	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-s
+###!!! [Ptrareaentm/][MelissageChb/anStnel] Error: (ormsge.jtysmpe=0:3x20 C0< un104,namine=itPCon()te@rent::Msg_AssouynrccMe:ess//actage) Channel error: cannot send/recv
+
+ivi
+ty-str###!!! [Paearem/nt][MessageChannel] Error: (mlisgtb/ypStore=e.0xjs15m:001501,3 < unaninitme()=P@rBresowserou::rcMse:g_Asyn//cMacestisage)vi Ctyha-snntreelam e/lrror:ib c/Aannctot sivenitd/ySretrcveam
+.js
+m:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < observe()@resource:///modules/ContentCrashHandlers.jsm:162
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1526041143652	Marionette	INFO	Listening on port 58530
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIServerSocket.close]
+]]></system-err>
+  </testcase>
+  <testcase name="startTest" classname="com.xpan.gnd.full.testsuites.development.ParallelClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="parallelClass1TestResultMustEqualPass" classname="com.xpan.gnd.full.testsuites.development.ParallelClass1" time="0">
+    <skipped message="connection reset&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;XIPL0448&apos;, ip: &apos;172.30.30.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: FirefoxWebDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="parallelClass1TestResultMustEqualPass" classname="com.xpan.gnd.full.testsuites.development.ParallelClass1" time="0.002"/>
+  <testcase name="prepareReport" classname="com.xpan.gnd.full.testsuites.development.ParallelClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="quitDriver" classname="com.xpan.gnd.full.testsuites.development.ParallelClass1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.xpan.gnd.full.testsuites.development.ParallelClass2" time="10.438">
+    <failure message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;XIPL0448&apos;, ip: &apos;172.30.30.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: FirefoxWebDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.30.30.13', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxWebDriver
+remote stacktrace: 
+</failure>
+    <system-err><![CDATA[
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0041,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0104,name=PConteWARNntIN::Msg_G:As AyncMes bsalogeck) er Chencoanunnetel reerd roanr: err coran wnohit lese wnde /rweecrev w
+aiti
+n
+g.##
+#!  !! [P  arent]  [M  es  saBlogeckCher: an Sneesl]si EronroStr: or(me:sg ftylupesh=0ing x1al50l w00in1,donawsme
+ =PB  ro  wse  r:  :M Phsgase_A: syquncit-Meappssliagcae) tiChonan-gneral erntroedr:
+ c  an  no  t   se  Sndtat/re:ecv {
+"t
+otal":-1,"current":-1}
+WARNING: [Exception... "Component returned fa
+##ilure code: #!0x!!8000 [ffPareff (ntNS][_EMessRRagOReCha_UNEnnXPelEC] TED)Erro [r:ns (msIMesgtsaypgee=0xSend2C00er1F,n.samendAe=PCsyonncMetent:ssage]" :Msg nsre_Psult:re "0xfere80nc00eUffpdff (atNSe)_E ChanRROnel error: cannot send/recv
+
+R_UNEXPECTED)"  location: "JS frame :: resource:///modules/sessionstore/TabStateFlusher.jsm :: flush :: line 88"  data: no]
+WARNING: flush@resource:///modules/sessionstore/TabStateFlusher.jsm:88:5
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:111:23
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:34:12
+flushAllWindowsAsync/<@resource:///modules/sessionstore/SessionStore.jsm:1668:31
+ssi_forEachBrowserWindow@resource:///modules/sessionstore/SessionStore.jsm:4215:9
+flushAllWindowsAsync@resource:///modules/sessionstore/SessionStore.jsm:1667:5
+ssi_onQuitApplicationGranted/<@resource:///modules/sessionstore/SessionStore.jsm:1616:25
+trigger@resource://gre/modules/AsyncShutdown.jsm:704:23
+_wait@resource://gre/modules/AsyncShutdown.jsm:851:7
+wait@resource://gre/modules/AsyncShutdown.jsm:835:28
+observe@resource://gre/modules/AsyncShutdown.jsm:518:17
+observe@resource:///modules/ContentCrashHandlers.jsm:162:11
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/ContentCrashHandlers.jsm, line 333: TypeError: browser.ownerGlobal is null
+JavaScript error: resource://shield-recipe-client/lib/ShieldRecipeClient.jsm, line 70: TypeError: log is undefined
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 24764
+Only local connections are allowed.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+May 11, 2018 5:49:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+]]></system-err>
+  </testcase>
+  <testcase name="startTest" classname="com.xpan.gnd.full.testsuites.development.ParallelClass2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="parallelClass2TestResultMustEqualFail" classname="com.xpan.gnd.full.testsuites.development.ParallelClass2" time="0">
+    <skipped message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;XIPL0448&apos;, ip: &apos;172.30.30.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: FirefoxWebDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="parallelClass2TestResultMustEqualFail" classname="com.xpan.gnd.full.testsuites.development.ParallelClass2" time="0">
+    <failure message="intentional failure" type="java.lang.Exception">java.lang.Exception: intentional failure
+	at com.xpan.gnd.full.testsuites.development.ParallelClass2.parallelClass2TestResultMustEqualFail(ParallelClass2.java:16)
+</failure>
+  </testcase>
+  <testcase name="prepareReport" classname="com.xpan.gnd.full.testsuites.development.ParallelClass2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="quitDriver" classname="com.xpan.gnd.full.testsuites.development.ParallelClass2" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

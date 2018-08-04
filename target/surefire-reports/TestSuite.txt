@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 6, Errors: 0, Skipped: 30, Time elapsed: 108.5 s <<< FAILURE! - in TestSuite
+setup(com.xpan.gnd.full.testsuites.development.TestClass1)  Time elapsed: 13.932 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.30.30.13', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxWebDriver
+remote stacktrace: 
+
+setup(com.xpan.gnd.full.testsuites.development.TestClass1)  Time elapsed: 13.933 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.30.30.13', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxWebDriver
+remote stacktrace: 
+
+setup(com.xpan.gnd.full.testsuites.development.TestClass2)  Time elapsed: 19.091 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.30.30.13', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxWebDriver
+remote stacktrace: 
+
+setup(com.xpan.gnd.full.testsuites.development.ParallelClass1)  Time elapsed: 25.29 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+connection reset
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.30.30.13', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxWebDriver
+remote stacktrace: 
+
+setup(com.xpan.gnd.full.testsuites.development.ParallelClass2)  Time elapsed: 10.438 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'XIPL0448', ip: '172.30.30.13', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxWebDriver
+remote stacktrace: 
+
+parallelClass2TestResultMustEqualFail(com.xpan.gnd.full.testsuites.development.ParallelClass2)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.Exception: intentional failure
+	at com.xpan.gnd.full.testsuites.development.ParallelClass2.parallelClass2TestResultMustEqualFail(ParallelClass2.java:16)
+

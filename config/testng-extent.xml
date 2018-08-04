@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
+		<!-- <parameter name="deviceName" value="NA"/>
+		<parameter name="screenWidth" value="NA"/>
+		<parameter name="screenHeight" value="NA"/> -->
+		<classes>
+			<class name="com.xpan.gnd.full.testsuites.development.SalesOrder" />
+			<!-- <class name="com.xpan.gnd.full.testsuites.development.ParallelClass2" /> -->
+		</classes>
+	</test>
+	<test name="FirefoxTest">
+	    <parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.xpan.gnd.full.testsuites.development.SalesOrder" />
+			<!-- <class name="com.xpan.gnd.full.testsuites.development.ParallelClass2" /> -->
+		</classes>
+	</test>
+</suite>
